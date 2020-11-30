@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="game.css">
+    <title>RPSLS</title>
+</head>
+<body>
+<header>
+    <h1>Rock * Paper * Scissors * Lizard * Spock</h1>
+</header>
+<div id="container" class="container">
+    <br>
+    <br>
+    <p>You choose an item,<br>
+        and the computer chooses an item. <br>
+        Best 2 out of 3 wins the game!<br>
+       <br>
+            Scissors cuts Paper<br>
+            Paper covers Rock<br>
+            Rock crushes Lizard<br>
+            Lizard poisons Spock<br>
+            Spock smashes Scissors<br>
+            Scissors decapitates Lizard<br>
+            Lizard eats Paper<br>
+            Paper disproves Spock<br>
+            Spock vaporizes Rock<br>
+            Rock crushes Scissors
+    </p>
+    <img id="winner" class="gameOver" src="img/congrats.jpg">
+    <img id="loser" class="gameOver" src="img/loser.jpg">
+    <div class="gallery">
+        <img src="img/rock.png" class="selectatron5000" id="rock">
+        <div class="desc" id="rockLabel">Rock</div>
+    </div>
+    <div class="gallery">
+        <img src="img/paper.png" class="selectatron5000" id="paper">
+        <div class="desc" id="paperLabel">Paper</div>
+    </div>
+    <div class="gallery">
+        <img src="img/scissors.png" class="selectatron5000" id="scissors">
+        <div class="desc" id="scissorsLabel">Scissors</div>
+    </div>
+    <div class="gallery">
+        <img src="img/lizard.png" class="selectatron5000" id="lizard">
+        <div class="desc" id="lizardLabel">Lizard</div>
+    </div>
+    <div class="gallery">
+        <img src="img/spock.png" class="selectatron5000" id="spock">
+        <div class="desc" id="spockLabel">Spock</div>
+    </div>
+    <div id="outcome"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="game.js"></script>
+</body>
+</html>
